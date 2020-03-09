@@ -1,0 +1,91 @@
+$news-color: tomato;
+$sports-color: #0facf3;
+$economy-color: #ec407a;
+$politics-color: #ffa726;
+$culture-color: #64dd17;
+
+$background-color: #12121a;
+$dark-color: #bbbbbb;
+$popup-color: #797979;
+$location-color: #d83d52;
+$section-color: lighten($background-color, 20%);
+$menuTabs-color: lighten($background-color, 10%);
+$card-background: darken($background-color, 2%);
+$card-info: #f9f9f9;
+$border-color: #e8e8e8;
+$white-color: darken($background-color, 3%);
+
+body {
+  background: $background-color;
+  color: $dark-color !important;
+  header {
+    .left {
+      .settings {
+        .popup {
+          color: $popup-color;
+        }
+        .hidden {
+          display: none;
+        }
+      }
+    }
+    .up {
+      .timeZone {
+        .location {
+          color: $location-color;
+        }
+      }
+    }
+    .down {
+      .popup {
+        color: $popup-color;
+      }
+    }
+  }
+}
+.container {
+  .navbar {
+    ul {
+      li {
+        .tab {
+          color: $menuTabs-color;
+          &.news.active {
+            color: $news-color;
+          }
+          &.sports.active {
+            color: $sports-color;
+          }
+          &.economy.active {
+            color: $economy-color;
+          }
+          &.politics.active {
+            color: $politics-color;
+          }
+          &.culture.active {
+            color: $culture-color;
+          }
+        }
+      }
+    }
+  }
+  .head-day {
+    color: $section-color;
+  }
+  .wrapper {
+    .card {
+      background: $card-background;
+      box-shadow: 0px 4px 6px darken($background-color, 2%);
+      .card-content {
+        .left {
+          .card-info {
+            color: $card-info;
+          }
+        }
+        .right {
+          background: $white-color;
+          border: solid 1px darken($background-color, 1%);
+        }
+      }
+    }
+  }
+}

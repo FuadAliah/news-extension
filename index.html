@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-mode="light">
+
+<head>
+    <title>Fuad Aliah</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="Stylesheet" href="./css/light.css">
+    <link rel="Stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <div class="logo"><a href="#"><img src="./imgs/foxLogo.svg"></a></div>
+            <div class="refrences">
+                <a href="#">
+                    <div class="jazeera"></div>
+                </a>
+            </div>
+            <div class="settings">
+                <a href="#">
+                    <img src="./imgs/settings.svg">
+                </a>
+                <span id="sett-popup" class="popup hidden">Settings</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="up">
+                <div class="timeZone">
+                    <div class="date">Sunday, March 8, 2020</div>
+                    <div class="location">Amman, Jordan</div>
+                </div>
+                <div class="weather"><img src="./imgs/weather.svg"></div>
+            </div>
+            <div class="down">
+                <span id="mode-popup" class="popup hidden">Dark Mode</span>
+                <a id="light_mode" href="#">
+                    <img id="mode_img" class="dark" src="./imgs/dark.svg">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#" class="tab news active">news</a></li>
+                <li><a href="#" class="tab sports">sports</a></li>
+                <li><a href="#" class="tab economy">economy</a></li>
+                <li><a href="#" class="tab politics">politics</a></li>
+                <li><a href="#" class="tab culture">culture</a></li>
+            </ul>
+        </div>
+        <div class="head-day">Today</div>
+        <div class="wrapper" id="wrapper">
+        </div>
+    </div>
+</body>
+
+</html>

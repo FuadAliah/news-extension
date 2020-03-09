@@ -1,0 +1,382 @@
+html {
+  overflow-x: hidden;
+}
+
+html ::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+html * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html img {
+  max-width: 100%;
+}
+
+html a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+body {
+  background: #f3f3f3;
+  width: 100vw;
+  height: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3d4345 !important;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  width: 95%;
+  height: 90vh;
+  top: 5%;
+}
+
+body header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+body header .left .settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .left .settings .popup {
+  font-size: 13px;
+  font-weight: 600;
+  color: #797979;
+  margin-left: 15px;
+}
+
+body header .left .settings .hidden {
+  display: none;
+}
+
+body header .right {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+body header .right .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .right .down .popup {
+  font-size: 13px;
+  font-weight: 600;
+  color: #797979;
+  margin-right: 15px;
+}
+
+body header .right .down .hidden {
+  display: none;
+}
+
+body header .right .up {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+body header .right .up .timeZone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body header .right .up .timeZone .location {
+  font-size: 12px;
+  color: #d83d52;
+}
+
+body header .right .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .container {
+  width: 1100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+  z-index: 1;
+}
+
+body .container .navbar {
+  width: 100%;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+body .container .navbar ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .navbar ul li .tab {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
+
+body .container .navbar ul li .tab.news.active {
+  color: tomato;
+  position: relative;
+}
+
+body .container .navbar ul li .tab.sports.active {
+  color: #0facf3;
+  position: relative;
+}
+
+body .container .navbar ul li .tab.economy.active {
+  color: #ec407a;
+  position: relative;
+}
+
+body .container .navbar ul li .tab.politics.active {
+  color: #ffa726;
+  position: relative;
+}
+
+body .container .navbar ul li .tab.culture.active {
+  color: #64dd17;
+  position: relative;
+}
+
+body .container .head-day {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #888888;
+}
+
+body .container .wrapper {
+  margin-top: 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+body .container .wrapper .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+  height: 300px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 4px rgba(180, 180, 180, 0.15);
+          box-shadow: 0px 2px 4px rgba(180, 180, 180, 0.15);
+  padding: 10px;
+  background: #fbfbfb;
+  margin-bottom: 25px;
+}
+
+body .container .wrapper .card > img {
+  height: 196px;
+}
+
+body .container .wrapper .card .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+body .container .wrapper .card .card-content .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 75%;
+}
+
+body .container .wrapper .card .card-content .left .card-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+body .container .wrapper .card .card-content .left .card-info {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6f6f6f;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+body .container .wrapper .card .card-content .right {
+  width: 18%;
+  height: 74px;
+  border: solid 1px #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+  border-radius: 3px;
+  background: #ffffff;
+}
+
+body .container .wrapper .card .card-content .right span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+body .container .wrapper .card:hover {
+  background: #fbfbfb;
+  -webkit-box-shadow: 0px 6px 15px rgba(180, 180, 180, 0.2);
+          box-shadow: 0px 6px 15px rgba(180, 180, 180, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=ref.css.map */

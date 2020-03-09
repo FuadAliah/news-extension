@@ -1,0 +1,61 @@
+body {
+  background: #f3f3f3;
+  color: #3d4345 !important;
+}
+
+body header .left .settings .popup {
+  color: #797979;
+}
+
+body header .left .settings .hidden {
+  display: none;
+}
+
+body header .up .timeZone .location {
+  color: #d83d52;
+}
+
+body header .down .popup {
+  color: #797979;
+}
+
+.container .navbar ul li .tab {
+  color: #bbbbbb;
+}
+
+.container .navbar ul li .tab.news.active {
+  color: tomato;
+}
+
+.container .navbar ul li .tab.sports.active {
+  color: #0facf3;
+}
+
+.container .navbar ul li .tab.economy.active {
+  color: #ec407a;
+}
+
+.container .navbar ul li .tab.politics.active {
+  color: #ffa726;
+}
+
+.container .navbar ul li .tab.culture.active {
+  color: #64dd17;
+}
+
+.container .head-day {
+  color: #888888;
+}
+
+.container .wrapper .card {
+  background: #fbfbfb;
+}
+
+.container .wrapper .card .card-content .left .card-info {
+  color: #6f6f6f;
+}
+
+.container .wrapper .card .card-content .right {
+  background: #ffffff;
+}
+/*# sourceMappingURL=light.css.map */
