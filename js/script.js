@@ -45,6 +45,20 @@ $(document).ready(function () {
             console.log(err.statusText);
         }
     })
+    $.ajax({
+        url: '../news-agent.json',
+        dataType: 'JSON',
+        success: function (response) {
+            var getData = '';
+            for (i = 0; i < response.length; i++) {
+                getData = ` <li><a href="${response[i].website}"><div class="agent"><img src="${response[i].logo}" alt=""></div></a></li>`;
+                $("#news-agents").append(getData)
+            }
+        },
+        error: function (err) {
+            console.log(err.statusText);
+        }
+    })
     // var myRequest = new XMLHttpRequest();
     // myRequest.onreadystatechange = function () {
     //     if (this.readyState === 4 && this.status === 200) {

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "logo": "https://via.placeholder.com/30x30/0facf3/0facf3",
+        "website": "https://via.placeholder.com",
+        "name": "sequela"
+    },
+    {
+        "id": "2",
+        "logo": "https://via.placeholder.com/30x30/FFA726/FFA726",
+        "website": "https://via.placeholder.com",
+        "name": "fibula"
+    },
+    {
+        "id": "3",
+        "logo": "https://via.placeholder.com/30x30/64dd17/64dd17",
+        "website": "https://via.placeholder.com",
+        "name": "bilateral"
+    },
+    {
+        "id": "4",
+        "logo": "https://via.placeholder.com/30x30/EC407A/EC407A",
+        "website": "https://via.placeholder.com",
+        "name": "Disorder"
+    },
+    {
+        "id": "5",
+        "logo": "https://via.placeholder.com/30x30/0facf3/0facf3",
+        "website": "https://via.placeholder.com",
+        "name": "Laceration"
+    },
+    {
+        "id": "6",
+        "logo": "https://via.placeholder.com/30x30/0facf3/0facf3",
+        "website": "https://via.placeholder.com",
+        "name": "sequela"
+    },
+    {
+        "id": "7",
+        "logo": "https://via.placeholder.com/30x30/FFA726/FFA726",
+        "website": "https://via.placeholder.com",
+        "name": "fibula"
+    },
+    {
+        "id": "8",
+        "logo": "https://via.placeholder.com/30x30/64dd17/64dd17",
+        "website": "https://via.placeholder.com",
+        "name": "bilateral"
+    },
+    {
+        "id": "9",
+        "logo": "https://via.placeholder.com/30x30/EC407A/EC407A",
+        "website": "https://via.placeholder.com",
+        "name": "Disorder"
+    },
+    {
+        "id": "10",
+        "logo": "https://via.placeholder.com/30x30/0facf3/0facf3",
+        "website": "https://via.placeholder.com",
+        "name": "Laceration"
+    }
+]

@@ -40,6 +40,18 @@ body {
       flex-direction: column;
       justify-content: space-between;
       height: 100%;
+      .news-agents {
+        height: 84%;
+        width: 12vw;
+        text-align: left;
+        .agent-logo {
+          width: 100px;
+          .agent {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
       .settings {
         display: flex;
         align-items: center;
